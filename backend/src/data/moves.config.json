@@ -1,0 +1,67 @@
+[
+  {
+    "id": "squat",
+    "name": "Squat",
+    "visualKey": "squat",
+    "productTags": ["short", "shoes"],
+    "steps": [
+      "Pieds largeur épaules",
+      "Descends en gardant le dos droit",
+      "Pousse dans les talons pour remonter"
+    ],
+    "cues": ["Genoux vers l’extérieur", "Regard droit", "Dos gainé"],
+    "mistakes": [
+      { "title": "Genoux rentrés", "fix": "Pousse les genoux vers l’extérieur." },
+      { "title": "Dos rond", "fix": "Garde la poitrine ouverte." }
+    ],
+    "plan": {
+      "frequency": "3x / semaine",
+      "setsReps": "4 × 12 répétitions",
+      "focus": "Technique + stabilité"
+    }
+  },
+
+  {
+    "id": "pushup",
+    "name": "Pompes",
+    "visualKey": "pushup",
+    "productTags": ["mat"],
+    "steps": [
+      "Mains sous les épaules",
+      "Descends en gardant le corps aligné",
+      "Pousse fort pour remonter"
+    ],
+    "cues": ["Core serré", "Coudes à 45°", "Regard en bas"],
+    "mistakes": [
+      { "title": "Hanches basses", "fix": "Monte légèrement le bassin." },
+      { "title": "Coudes trop ouverts", "fix": "Garde-les à 45°." }
+    ],
+    "plan": {
+      "frequency": "2–3x / semaine",
+      "setsReps": "3 × 10 répétitions",
+      "focus": "Force du haut du corps"
+    }
+  },
+
+  {
+    "id": "rope",
+    "name": "Corde à sauter",
+    "visualKey": "rope",
+    "productTags": ["rope"],
+    "steps": [
+      "Saute léger sur la pointe des pieds",
+      "Tourne la corde avec les poignets",
+      "Garde le rythme stable"
+    ],
+    "cues": ["Poignets actifs", "Sauts petits", "Regard devant"],
+    "mistakes": [
+      { "title": "Sauts trop hauts", "fix": "Reste proche du sol." },
+      { "title": "Épaules crispées", "fix": "Relâche tes épaules." }
+    ],
+    "plan": {
+      "frequency": "3–5x / semaine",
+      "setsReps": "5 × 1 min (débutant)",
+      "focus": "Endurance + coordination"
+    }
+  }
+]

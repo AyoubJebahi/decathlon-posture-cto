@@ -1,0 +1,51 @@
+{
+  "questions": [
+    {
+      "id": "level",
+      "title": "Ton niveau ?",
+      "type": "single",
+      "options": [
+        { "label": "Débutant", "value": "beginner" },
+        { "label": "Intermédiaire", "value": "intermediate" },
+        { "label": "Avancé", "value": "advanced" }
+      ]
+    },
+    {
+      "id": "goal",
+      "title": "Ton objectif principal ?",
+      "type": "single",
+      "options": [
+        { "label": "Force", "value": "strength" },
+        { "label": "Mobilité", "value": "mobility" },
+        { "label": "Perte de poids", "value": "fatloss" },
+        { "label": "Gain de poids", "value": "weightgain" },
+        { "label": "Performance", "value": "performance" }
+      ]
+    },
+    {
+      "id": "constraints",
+      "title": "Sensibilités / contraintes",
+      "type": "multi",
+      "exclusiveValue": "none",
+      "options": [
+        { "label": "Genoux", "value": "knees" },
+        { "label": "Dos", "value": "back" },
+        { "label": "Poignets", "value": "wrists" },
+        { "label": "Aucune", "value": "none" }
+      ]
+    },
+    {
+      "id": "equipment",
+      "title": "Matériel disponible",
+      "type": "multi",
+      "exclusiveValue": "none",
+      "options": [
+        { "label": "Tapis", "value": "mat" },
+        { "label": "Bandes élastiques", "value": "bands" },
+        { "label": "Haltères", "value": "dumbbells" },
+        { "label": "Corde à sauter", "value": "rope" },
+        { "label": "Rien", "value": "none" }
+      ]
+    }
+  ]
+}
